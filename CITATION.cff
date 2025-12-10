@@ -11,6 +11,7 @@ identifiers:
   value: http://localhost:8000/codebases/a8975a2d-2d06-48a8-9b00-6eec1773d29c/releases/1.0.0/
 license: GPL-3.0
 message: If you use this software, please cite it using the metadata from this file.
+repository-code: https://github.com/sgfost/velo-integration-test
 title: Velo
 type: software
 url: http://localhost:8000/codebases/a8975a2d-2d06-48a8-9b00-6eec1773d29c/releases/1.0.0/

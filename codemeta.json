@@ -1,54 +1,55 @@
 {
-  "@context": "https://w3id.org/codemeta/3.0",
-  "@type": "SoftwareSourceCode",
   "@id": "http://localhost:8000/codebases/a8975a2d-2d06-48a8-9b00-6eec1773d29c/releases/1.0.0/",
+  "url": "http://localhost:8000/codebases/a8975a2d-2d06-48a8-9b00-6eec1773d29c/releases/1.0.0/",
   "name": "Velo",
-  "programmingLanguage": [
-    {
-      "@type": "ComputerLanguage",
-      "name": "typescript"
-    }
-  ],
-  "runtimePlatform": [
-    "none"
-  ],
-  "applicationCategory": "Computational Model",
-  "downloadUrl": "http://localhost:8000/codebases/a8975a2d-2d06-48a8-9b00-6eec1773d29c/releases/1.0.0/download/",
-  "operatingSystem": "platform_independent",
-  "releaseNotes": "version 1",
+  "@type": "SoftwareSourceCode",
   "author": [
     {
       "@id": "http://localhost:8000/users/3325/",
       "@type": "Person",
+      "email": "comsesadmin@mailinator.com",
       "givenName": "Admin",
       "familyName": "User",
       "affiliation": {
         "@id": "https://ror.org/03efmqc40",
-        "@type": "Organization",
         "url": "https://www.asu.edu",
         "name": "Arizona State University",
+        "@type": "Organization",
         "identifier": "https://ror.org/03efmqc40"
-      },
-      "email": "comsesadmin@mailinator.com"
+      }
     }
   ],
-  "copyrightYear": 2025,
-  "dateCreated": "2025-12-10",
-  "dateModified": "2025-12-10",
-  "datePublished": "2025-12-10",
   "license": {
-    "@type": "CreativeWork",
     "url": "http://www.gnu.org/licenses/gpl-3.0.html",
-    "name": "GPL-3.0"
-  },
-  "publisher": {
-    "@id": "https://ror.org/015bsfc29",
-    "@type": "Organization",
-    "url": "https://www.comses.net",
-    "name": "CoMSES Net"
+    "name": "GPL-3.0",
+    "@type": "CreativeWork"
   },
   "version": "1.0.0",
+  "@context": "https://w3id.org/codemeta/3.0",
+  "publisher": {
+    "@id": "https://ror.org/015bsfc29",
+    "url": "https://www.comses.net",
+    "name": "CoMSES Net",
+    "@type": "Organization"
+  },
   "identifier": "http://localhost:8000/codebases/a8975a2d-2d06-48a8-9b00-6eec1773d29c/releases/1.0.0/",
+  "dateCreated": "2025-12-10",
   "description": "cappuccino",
-  "url": "http://localhost:8000/codebases/a8975a2d-2d06-48a8-9b00-6eec1773d29c/releases/1.0.0/"
+  "downloadUrl": "http://localhost:8000/codebases/a8975a2d-2d06-48a8-9b00-6eec1773d29c/releases/1.0.0/download/",
+  "dateModified": "2025-12-10",
+  "releaseNotes": "version 1\n\naddition to release notes",
+  "copyrightYear": 2025,
+  "datePublished": "2025-12-10",
+  "codeRepository": "https://github.com/sgfost/velo-integration-test",
+  "operatingSystem": "platform_independent",
+  "runtimePlatform": [
+    "none"
+  ],
+  "applicationCategory": "Computational Model",
+  "programmingLanguage": [
+    {
+      "name": "typescript",
+      "@type": "ComputerLanguage"
+    }
+  ]
 }
