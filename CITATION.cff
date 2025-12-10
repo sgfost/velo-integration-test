@@ -1,0 +1,17 @@
+abstract: cappuccino
+authors:
+- affiliation: Arizona State University
+  email: comsesadmin@mailinator.com
+  family-names: User
+  given-names: Admin
+cff-version: 1.2.0
+date-released: '2025-12-10'
+identifiers:
+- type: url
+  value: http://localhost:8000/codebases/a8975a2d-2d06-48a8-9b00-6eec1773d29c/releases/1.0.0/
+license: GPL-3.0
+message: If you use this software, please cite it using the metadata from this file.
+title: Velo
+type: software
+url: http://localhost:8000/codebases/a8975a2d-2d06-48a8-9b00-6eec1773d29c/releases/1.0.0/
+version: 1.0.0
