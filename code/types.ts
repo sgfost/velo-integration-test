@@ -1,3 +1,7 @@
+export interface Thing {
+  name?: string;
+}
+
 export interface BaseFieldProps {
   name: string;
   label?: string;
